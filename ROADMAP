@@ -1,0 +1,57 @@
+ROADMAP
+🟢 Fase 1 – Planejamento
+✅ Definir o objetivo principal do serviço de IA
+✅ Escolher a memecoin que será usada (ou criar uma)
+✅ Listar os tipos de tarefa que a IA vai realizar
+✅ Estabelecer os requisitos legais (ex: LGPD, termos de uso)
+✅ Escolher o stack tecnológico (frontend, backend, banco de dados)
+
+🟡 Fase 2 – Design do Sistema
+✅ Criar wireframes do site (páginas principais: login, dashboard, pagamento, chat IA)
+✅ Esquematizar o fluxo da memecoin (ex: pagamento → autorização → execução)
+✅ Definir arquitetura (servidores, API, banco de dados, blockchain node)
+✅ Especificar API da IA e API blockchain (como vão conversar)
+
+🔵 Fase 3 – Desenvolvimento Inicial
+✅ Implementar o backend básico:
+
+Cadastro/login com JWT ou OAuth
+
+Controle de usuários e saldo
+
+API para envio de comandos à IA
+
+API para conectar com carteira memecoin
+
+✅ Implementar o frontend básico:
+
+Formulário de login/cadastro
+
+Painel do usuário
+
+Formulário para envio de tarefa
+
+✅ Criar um smart contract simples (se necessário):
+
+Gerir pagamento por tarefa
+
+Registrar transações na blockchain
+
+🟠 Fase 4 – Integração e Testes
+✅ Integrar frontend com backend
+✅ Integrar backend com API da IA
+✅ Integrar backend com carteira e blockchain
+✅ Testar transações reais na memecoin (rede de teste primeiro!)
+✅ Testar fluxo completo: usuário → pagamento → execução IA → entrega resultado
+
+🔴 Fase 5 – Lançamento
+✅ Implantar no servidor (AWS, Vercel, GCP)
+✅ Configurar domínio e SSL
+✅ Configurar monitoramento (logs, alertas de erro)
+✅ Liberar para público (beta primeiro, se possível)
+
+🟣 Fase 6 – Pós-lançamento
+✅ Corrigir bugs e otimizar performance
+✅ Melhorar interface conforme feedback
+✅ Criar sistema de recompensas / fidelidade com memecoin
+✅ Escalar para mais tarefas, mais IA ou mais moedas
